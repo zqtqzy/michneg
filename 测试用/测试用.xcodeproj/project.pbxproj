@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FF03DC0C1C64558300D49C4F /* AccusationTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF03DC0B1C64558300D49C4F /* AccusationTableViewController.m */; };
+		FF03DC0F1C64572F00D49C4F /* AccusationModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FF03DC0E1C64572F00D49C4F /* AccusationModel.m */; };
 		FF33C82F1C57408400817861 /* DEMOLeftMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF33C6D61C57408400817861 /* DEMOLeftMenuViewController.m */; };
 		FF33C8301C57408400817861 /* ClassTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF33C6DC1C57408400817861 /* ClassTableViewController.m */; };
 		FF33C8311C57408400817861 /* ChangeMsgTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF33C6E21C57408400817861 /* ChangeMsgTableViewController.m */; };
@@ -53,9 +55,7 @@
 		FF33C85A1C57408400817861 /* DiscussCreateCommentView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF33C73B1C57408400817861 /* DiscussCreateCommentView.xib */; };
 		FF33C85B1C57408400817861 /* DiscussShowCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FF33C73D1C57408400817861 /* DiscussShowCell.m */; };
 		FF33C85C1C57408400817861 /* DiscussShowCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF33C73E1C57408400817861 /* DiscussShowCell.xib */; };
-		FF33C85D1C57408400817861 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF33C73F1C57408400817861 /* Assets.xcassets */; };
 		FF33C85E1C57408400817861 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FF33C7471C57408400817861 /* AppDelegate.m */; };
-		FF33C85F1C57408400817861 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF33C7481C57408400817861 /* LaunchScreen.storyboard */; };
 		FF33C8601C57408400817861 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF33C74A1C57408400817861 /* Main.storyboard */; };
 		FF33C8611C57408400817861 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FF33C74C1C57408400817861 /* Info.plist */; };
 		FF33C8621C57408400817861 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FF33C74D1C57408400817861 /* main.m */; };
@@ -170,10 +170,24 @@
 		FF33C8DD1C574DC500817861 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF33C8DC1C574DC500817861 /* ImageIO.framework */; };
 		FF33C8DF1C574DD700817861 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF33C8DE1C574DD700817861 /* CoreMotion.framework */; };
 		FF33C8E11C574E0000817861 /* libstdc++.6.0.9.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = FF33C8E01C574E0000817861 /* libstdc++.6.0.9.tbd */; };
+		FF55F2951C5890BA0005C8AB /* EasyIndentModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FF55F2941C5890BA0005C8AB /* EasyIndentModel.m */; };
+		FF55F2981C5891770005C8AB /* EasyIndentTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FF55F2971C5891770005C8AB /* EasyIndentTableViewCell.m */; };
+		FF55F2B61C58CF970005C8AB /* practice@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FF55F2B51C58CF970005C8AB /* practice@2x.png */; };
+		FF55F2B81C58FE5F0005C8AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF55F2B71C58FE5F0005C8AB /* Assets.xcassets */; };
+		FF55F2BB1C5904C90005C8AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF55F2B91C5904C90005C8AB /* LaunchScreen.storyboard */; };
+		FFAC16D11C6EEEE50062CADA /* DiscussHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = FFAC16D01C6EEEE50062CADA /* DiscussHeaderView.m */; };
+		FFAC16D51C6EEF160062CADA /* DiscussHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FFAC16D41C6EEF160062CADA /* DiscussHeaderView.xib */; };
+		FFBAC8291C5A4FFB0054C2F4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFBAC8281C5A4FFB0054C2F4 /* Images.xcassets */; };
+		FFF7ED5E1C579E0F00C526D5 /* JHGuideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFF7ED5A1C579E0F00C526D5 /* JHGuideViewController.m */; };
+		FFF7ED5F1C579E0F00C526D5 /* JHGuideViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FFF7ED5D1C579E0F00C526D5 /* JHGuideViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		3FDFD42E1C2AC6E000B44C56 /* 测试用.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "测试用.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FDFD42E1C2AC6E000B44C56 /* 觅城.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "觅城.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF03DC0A1C64558300D49C4F /* AccusationTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccusationTableViewController.h; sourceTree = "<group>"; };
+		FF03DC0B1C64558300D49C4F /* AccusationTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccusationTableViewController.m; sourceTree = "<group>"; };
+		FF03DC0D1C64572F00D49C4F /* AccusationModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccusationModel.h; sourceTree = "<group>"; };
+		FF03DC0E1C64572F00D49C4F /* AccusationModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccusationModel.m; sourceTree = "<group>"; };
 		FF33C6D51C57408400817861 /* DEMOLeftMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DEMOLeftMenuViewController.h; sourceTree = "<group>"; };
 		FF33C6D61C57408400817861 /* DEMOLeftMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DEMOLeftMenuViewController.m; sourceTree = "<group>"; };
 		FF33C6DB1C57408400817861 /* ClassTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClassTableViewController.h; sourceTree = "<group>"; };
@@ -258,14 +272,12 @@
 		FF33C73C1C57408400817861 /* DiscussShowCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiscussShowCell.h; sourceTree = "<group>"; };
 		FF33C73D1C57408400817861 /* DiscussShowCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiscussShowCell.m; sourceTree = "<group>"; };
 		FF33C73E1C57408400817861 /* DiscussShowCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DiscussShowCell.xib; sourceTree = "<group>"; };
-		FF33C73F1C57408400817861 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FF33C7411C57408400817861 /* AppConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppConstants.h; sourceTree = "<group>"; };
 		FF33C7421C57408400817861 /* Public.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Public.h; sourceTree = "<group>"; };
 		FF33C7431C57408400817861 /* TestPrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TestPrefixHeader.pch; path = ../config/TestPrefixHeader.pch; sourceTree = "<group>"; };
 		FF33C7441C57408400817861 /* UConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UConstants.h; sourceTree = "<group>"; };
 		FF33C7461C57408400817861 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		FF33C7471C57408400817861 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		FF33C7491C57408400817861 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FF33C74B1C57408400817861 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FF33C74C1C57408400817861 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FF33C74D1C57408400817861 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -474,6 +486,21 @@
 		FF33C8DC1C574DC500817861 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
 		FF33C8DE1C574DD700817861 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
 		FF33C8E01C574E0000817861 /* libstdc++.6.0.9.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.6.0.9.tbd"; path = "usr/lib/libstdc++.6.0.9.tbd"; sourceTree = SDKROOT; };
+		FF55F2931C5890BA0005C8AB /* EasyIndentModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EasyIndentModel.h; sourceTree = "<group>"; };
+		FF55F2941C5890BA0005C8AB /* EasyIndentModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EasyIndentModel.m; sourceTree = "<group>"; };
+		FF55F2961C5891770005C8AB /* EasyIndentTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EasyIndentTableViewCell.h; sourceTree = "<group>"; };
+		FF55F2971C5891770005C8AB /* EasyIndentTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EasyIndentTableViewCell.m; sourceTree = "<group>"; };
+		FF55F2B51C58CF970005C8AB /* practice@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "practice@2x.png"; sourceTree = "<group>"; };
+		FF55F2B71C58FE5F0005C8AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FF55F2BA1C5904C90005C8AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FFAC16CF1C6EEEE50062CADA /* DiscussHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiscussHeaderView.h; sourceTree = "<group>"; };
+		FFAC16D01C6EEEE50062CADA /* DiscussHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiscussHeaderView.m; sourceTree = "<group>"; };
+		FFAC16D41C6EEF160062CADA /* DiscussHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DiscussHeaderView.xib; sourceTree = "<group>"; };
+		FFBAC8281C5A4FFB0054C2F4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = "../觅城/Images.xcassets"; sourceTree = "<group>"; };
+		FFF7ED591C579E0F00C526D5 /* JHGuideViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHGuideViewController.h; sourceTree = "<group>"; };
+		FFF7ED5A1C579E0F00C526D5 /* JHGuideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHGuideViewController.m; sourceTree = "<group>"; };
+		FFF7ED5C1C579E0F00C526D5 /* JHGuideViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHGuideViewCell.h; sourceTree = "<group>"; };
+		FFF7ED5D1C579E0F00C526D5 /* JHGuideViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHGuideViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -519,7 +546,7 @@
 		3FDFD42F1C2AC6E000B44C56 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3FDFD42E1C2AC6E000B44C56 /* 测试用.app */,
+				3FDFD42E1C2AC6E000B44C56 /* 觅城.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -527,13 +554,15 @@
 		3FDFD4301C2AC6E000B44C56 /* 测试用 */ = {
 			isa = PBXGroup;
 			children = (
+				FFBAC8281C5A4FFB0054C2F4 /* Images.xcassets */,
+				FF55F2B71C58FE5F0005C8AB /* Assets.xcassets */,
+				FFF7ED571C579E0F00C526D5 /* Guide */,
 				FF33C6D31C57408400817861 /* 侧边栏 */,
 				FF33C6D91C57408400817861 /* 分类 */,
 				FF33C6DF1C57408400817861 /* 个人信息 */,
 				FF33C6FA1C57408400817861 /* 离我最近 */,
 				FF33C7001C57408400817861 /* 首页 */,
 				FF33C7271C57408400817861 /* 贴吧 */,
-				FF33C73F1C57408400817861 /* Assets.xcassets */,
 				FF33C7401C57408400817861 /* config */,
 				FF33C7451C57408400817861 /* system */,
 				FF33C74E1C57408400817861 /* Utils */,
@@ -637,6 +666,8 @@
 				FF33C6EE1C57408400817861 /* RegisterController.m */,
 				FF33C6EF1C57408400817861 /* SettingTableViewController.h */,
 				FF33C6F01C57408400817861 /* SettingTableViewController.m */,
+				FF03DC0A1C64558300D49C4F /* AccusationTableViewController.h */,
+				FF03DC0B1C64558300D49C4F /* AccusationTableViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -648,6 +679,10 @@
 				FF33C6F31C57408400817861 /* UserModel.m */,
 				FF33C6F41C57408400817861 /* ZQTIndentModel.h */,
 				FF33C6F51C57408400817861 /* ZQTIndentModel.m */,
+				FF55F2931C5890BA0005C8AB /* EasyIndentModel.h */,
+				FF55F2941C5890BA0005C8AB /* EasyIndentModel.m */,
+				FF03DC0D1C64572F00D49C4F /* AccusationModel.h */,
+				FF03DC0E1C64572F00D49C4F /* AccusationModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -658,6 +693,8 @@
 				FF33C6F71C57408400817861 /* PerCenterComCell.h */,
 				FF33C6F81C57408400817861 /* PerCenterComCell.m */,
 				FF33C6F91C57408400817861 /* PerCenterComCell.xib */,
+				FF55F2961C5891770005C8AB /* EasyIndentTableViewCell.h */,
+				FF55F2971C5891770005C8AB /* EasyIndentTableViewCell.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -808,6 +845,9 @@
 				FF33C73C1C57408400817861 /* DiscussShowCell.h */,
 				FF33C73D1C57408400817861 /* DiscussShowCell.m */,
 				FF33C73E1C57408400817861 /* DiscussShowCell.xib */,
+				FFAC16CF1C6EEEE50062CADA /* DiscussHeaderView.h */,
+				FFAC16D01C6EEEE50062CADA /* DiscussHeaderView.m */,
+				FFAC16D41C6EEF160062CADA /* DiscussHeaderView.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -825,11 +865,11 @@
 		FF33C7451C57408400817861 /* system */ = {
 			isa = PBXGroup;
 			children = (
+				FF55F2B91C5904C90005C8AB /* LaunchScreen.storyboard */,
 				FF33C7431C57408400817861 /* TestPrefixHeader.pch */,
 				FF33C74C1C57408400817861 /* Info.plist */,
 				FF33C7461C57408400817861 /* AppDelegate.h */,
 				FF33C7471C57408400817861 /* AppDelegate.m */,
-				FF33C7481C57408400817861 /* LaunchScreen.storyboard */,
 				FF33C74A1C57408400817861 /* Main.storyboard */,
 				FF33C74D1C57408400817861 /* main.m */,
 			);
@@ -839,6 +879,7 @@
 		FF33C74E1C57408400817861 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				FF55F2AC1C58CF7E0005C8AB /* Images */,
 				FF33C74F1C57408400817861 /* Bmob_Request */,
 				FF33C7521C57408400817861 /* tools */,
 			);
@@ -1335,12 +1376,47 @@
 			path = System;
 			sourceTree = "<group>";
 		};
+		FF55F2AC1C58CF7E0005C8AB /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				FF55F2B51C58CF970005C8AB /* practice@2x.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		FFF7ED571C579E0F00C526D5 /* Guide */ = {
+			isa = PBXGroup;
+			children = (
+				FFF7ED581C579E0F00C526D5 /* Controller */,
+				FFF7ED5B1C579E0F00C526D5 /* View */,
+			);
+			path = Guide;
+			sourceTree = "<group>";
+		};
+		FFF7ED581C579E0F00C526D5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FFF7ED591C579E0F00C526D5 /* JHGuideViewController.h */,
+				FFF7ED5A1C579E0F00C526D5 /* JHGuideViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		FFF7ED5B1C579E0F00C526D5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FFF7ED5C1C579E0F00C526D5 /* JHGuideViewCell.h */,
+				FFF7ED5D1C579E0F00C526D5 /* JHGuideViewCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3FDFD42D1C2AC6E000B44C56 /* 测试用 */ = {
+		3FDFD42D1C2AC6E000B44C56 /* 觅城 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3FDFD4451C2AC6E000B44C56 /* Build configuration list for PBXNativeTarget "测试用" */;
+			buildConfigurationList = 3FDFD4451C2AC6E000B44C56 /* Build configuration list for PBXNativeTarget "觅城" */;
 			buildPhases = (
 				3FDFD42A1C2AC6E000B44C56 /* Sources */,
 				3FDFD42B1C2AC6E000B44C56 /* Frameworks */,
@@ -1350,9 +1426,9 @@
 			);
 			dependencies = (
 			);
-			name = "测试用";
+			name = "觅城";
 			productName = "测试用";
-			productReference = 3FDFD42E1C2AC6E000B44C56 /* 测试用.app */;
+			productReference = 3FDFD42E1C2AC6E000B44C56 /* 觅城.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -1366,7 +1442,7 @@
 				TargetAttributes = {
 					3FDFD42D1C2AC6E000B44C56 = {
 						CreatedOnToolsVersion = 7.1.1;
-						DevelopmentTeam = G399SB48CR;
+						DevelopmentTeam = 92682GVSLX;
 					};
 				};
 			};
@@ -1383,7 +1459,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3FDFD42D1C2AC6E000B44C56 /* 测试用 */,
+				3FDFD42D1C2AC6E000B44C56 /* 觅城 */,
 			);
 		};
 /* End PBXProject section */
@@ -1399,9 +1475,11 @@
 				FF33C85A1C57408400817861 /* DiscussCreateCommentView.xib in Resources */,
 				FF33C8671C57408400817861 /* baiduNaviSDK.bundle in Resources */,
 				FF33C8561C57408400817861 /* DiscussAuthorView.xib in Resources */,
+				FF55F2B81C58FE5F0005C8AB /* Assets.xcassets in Resources */,
+				FF55F2BB1C5904C90005C8AB /* LaunchScreen.storyboard in Resources */,
 				FF33C8C11C57408400817861 /* WHC_PictureListVC.xib in Resources */,
+				FFBAC8291C5A4FFB0054C2F4 /* Images.xcassets in Resources */,
 				FF33C8651C57408400817861 /* AlipaySDK.bundle in Resources */,
-				FF33C85F1C57408400817861 /* LaunchScreen.storyboard in Resources */,
 				FF33C85C1C57408400817861 /* DiscussShowCell.xib in Resources */,
 				FF33C8BF1C57408400817861 /* WHC_ChoicePictureVC.xib in Resources */,
 				FF33C8B41C57408400817861 /* backgroundStar.png in Resources */,
@@ -1415,7 +1493,8 @@
 				FF33C8581C57408400817861 /* DiscussCommentCell.xib in Resources */,
 				FF33C8781C57408400817861 /* updatelog.txt in Resources */,
 				FF33C8B51C57408400817861 /* backgroundStar@2x.png in Resources */,
-				FF33C85D1C57408400817861 /* Assets.xcassets in Resources */,
+				FFAC16D51C6EEF160062CADA /* DiscussHeaderView.xib in Resources */,
+				FF55F2B61C58CF970005C8AB /* practice@2x.png in Resources */,
 				FF33C8891C57408400817861 /* IQKeyboardManager.bundle in Resources */,
 				FF33C84B1C57408400817861 /* GoodsTableViewCell.xib in Resources */,
 			);
@@ -1445,7 +1524,9 @@
 				FF33C8351C57408400817861 /* LoginController.m in Sources */,
 				FF33C8761C57408400817861 /* CSerializedJSONData.m in Sources */,
 				FF33C8331C57408400817861 /* HeaderChooseController.m in Sources */,
+				FFF7ED5E1C579E0F00C526D5 /* JHGuideViewController.m in Sources */,
 				FF33C8B11C57408400817861 /* UIView+WebCacheOperation.m in Sources */,
+				FFF7ED5F1C579E0F00C526D5 /* JHGuideViewCell.m in Sources */,
 				FF33C89D1C57408400817861 /* UIScrollView+MJRefresh.m in Sources */,
 				FF33C8BB1C57408400817861 /* WHC_PhotoListCell.m in Sources */,
 				FF33C8A41C57408400817861 /* SDImageCache.m in Sources */,
@@ -1496,6 +1577,7 @@
 				FF33C8AF1C57408400817861 /* UIImageView+HighlightedWebCache.m in Sources */,
 				FF33C88A1C57408400817861 /* LimitInput.m in Sources */,
 				FF33C8821C57408400817861 /* IQKeyboardManager.m in Sources */,
+				FF03DC0F1C64572F00D49C4F /* AccusationModel.m in Sources */,
 				FF33C8301C57408400817861 /* ClassTableViewController.m in Sources */,
 				FF33C85E1C57408400817861 /* AppDelegate.m in Sources */,
 				FF33C8A11C57408400817861 /* UIViewController+RESideMenu.m in Sources */,
@@ -1507,6 +1589,7 @@
 				FF33C88B1C57408400817861 /* MBProgressHUD.m in Sources */,
 				FF33C8501C57408400817861 /* ZQTMainCell.m in Sources */,
 				FF33C8371C57408400817861 /* RegisterController.m in Sources */,
+				FF55F2951C5890BA0005C8AB /* EasyIndentModel.m in Sources */,
 				FF33C89C1C57408400817861 /* UIScrollView+MJExtension.m in Sources */,
 				FF33C8531C57408400817861 /* ZQTDiscussCommentModel.m in Sources */,
 				FF33C8461C57408400817861 /* ZQTGoodsModel.m in Sources */,
@@ -1521,6 +1604,7 @@
 				FF33C8A51C57408400817861 /* SDWebImageCompat.m in Sources */,
 				FF33C8621C57408400817861 /* main.m in Sources */,
 				FF33C8981C57408400817861 /* MJRefreshNormalHeader.m in Sources */,
+				FF55F2981C5891770005C8AB /* EasyIndentTableViewCell.m in Sources */,
 				FF33C8941C57408400817861 /* MJRefreshBackGifFooter.m in Sources */,
 				FF33C8BE1C57408400817861 /* WHC_ChoicePictureVC.m in Sources */,
 				FF33C84A1C57408400817861 /* GoodsTableViewCell.m in Sources */,
@@ -1537,7 +1621,9 @@
 				FF33C8A01C57408400817861 /* RESideMenu.m in Sources */,
 				FF33C82F1C57408400817861 /* DEMOLeftMenuViewController.m in Sources */,
 				FF33C8B01C57408400817861 /* UIImageView+WebCache.m in Sources */,
+				FF03DC0C1C64558300D49C4F /* AccusationTableViewController.m in Sources */,
 				FF33C8471C57408400817861 /* ZQTMainModel.m in Sources */,
+				FFAC16D11C6EEEE50062CADA /* DiscussHeaderView.m in Sources */,
 				FF33C8481C57408400817861 /* CommentTableViewCell.m in Sources */,
 				FF33C8BA1C57408400817861 /* WHC_Asset.m in Sources */,
 				FF33C89B1C57408400817861 /* MJRefreshConst.m in Sources */,
@@ -1551,20 +1637,20 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		FF33C7481C57408400817861 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FF33C7491C57408400817861 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
 		FF33C74A1C57408400817861 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				FF33C74B1C57408400817861 /* Base */,
 			);
 			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FF55F2B91C5904C90005C8AB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF55F2BA1C5904C90005C8AB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -1656,7 +1742,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1679,8 +1767,9 @@
 				);
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_BUNDLE_IDENTIFIER = niit.zqt.123;
+				PRODUCT_BUNDLE_IDENTIFIER = com.niit.michengpro;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				VALID_ARCHS = "arm64 armv7";
 			};
 			name = Debug;
@@ -1689,7 +1778,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1712,8 +1803,9 @@
 				);
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_BUNDLE_IDENTIFIER = niit.zqt.123;
+				PRODUCT_BUNDLE_IDENTIFIER = com.niit.michengpro;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				VALID_ARCHS = "arm64 armv7";
 			};
 			name = Release;
@@ -1730,7 +1822,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3FDFD4451C2AC6E000B44C56 /* Build configuration list for PBXNativeTarget "测试用" */ = {
+		3FDFD4451C2AC6E000B44C56 /* Build configuration list for PBXNativeTarget "觅城" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3FDFD4461C2AC6E000B44C56 /* Debug */,

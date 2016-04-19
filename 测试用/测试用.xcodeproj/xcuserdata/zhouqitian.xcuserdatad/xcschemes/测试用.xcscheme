@@ -15,8 +15,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "3FDFD42D1C2AC6E000B44C56"
-               BuildableName = "&#x6d4b;&#x8bd5;&#x7528;.app"
-               BlueprintName = "&#x6d4b;&#x8bd5;&#x7528;"
+               BuildableName = "&#x89c5;&#x57ce;.app"
+               BlueprintName = "&#x89c5;&#x57ce;"
                ReferencedContainer = "container:&#x6d4b;&#x8bd5;&#x7528;.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -33,8 +33,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "3FDFD42D1C2AC6E000B44C56"
-            BuildableName = "&#x6d4b;&#x8bd5;&#x7528;.app"
-            BlueprintName = "&#x6d4b;&#x8bd5;&#x7528;"
+            BuildableName = "&#x89c5;&#x57ce;.app"
+            BlueprintName = "&#x89c5;&#x57ce;"
             ReferencedContainer = "container:&#x6d4b;&#x8bd5;&#x7528;.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -56,8 +56,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "3FDFD42D1C2AC6E000B44C56"
-            BuildableName = "&#x6d4b;&#x8bd5;&#x7528;.app"
-            BlueprintName = "&#x6d4b;&#x8bd5;&#x7528;"
+            BuildableName = "&#x89c5;&#x57ce;.app"
+            BlueprintName = "&#x89c5;&#x57ce;"
             ReferencedContainer = "container:&#x6d4b;&#x8bd5;&#x7528;.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -75,8 +75,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "3FDFD42D1C2AC6E000B44C56"
-            BuildableName = "&#x6d4b;&#x8bd5;&#x7528;.app"
-            BlueprintName = "&#x6d4b;&#x8bd5;&#x7528;"
+            BuildableName = "&#x89c5;&#x57ce;.app"
+            BlueprintName = "&#x89c5;&#x57ce;"
             ReferencedContainer = "container:&#x6d4b;&#x8bd5;&#x7528;.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
